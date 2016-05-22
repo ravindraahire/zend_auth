@@ -1,0 +1,2 @@
+admin1:My Site Admin:123456
+test:My Site Admin:test
