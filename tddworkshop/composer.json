@@ -1,5 +1,10 @@
 {
     "name": "ravindra/tddworkshop",
+<<<<<<< HEAD
+=======
+    "description": "TDD workshop",
+    "license": "MIT",
+>>>>>>> 204c1a6d83e36561f5db3c6edc46d8abd34ddad9
     "authors": [
         {
             "name": "Ravindra Ahire",

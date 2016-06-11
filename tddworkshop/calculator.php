@@ -19,7 +19,6 @@ try {
         case 'multiply':
             $numbers = isset($argv[2]) ? $argv[2] : '';
             echo $calculator->process($numbers, 'multiply') . PHP_EOL;
-            break;
         default:
             echo 'Please check the operator.' . PHP_EOL;
     }
