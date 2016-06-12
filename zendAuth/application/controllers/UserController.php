@@ -32,6 +32,7 @@ class UserController extends Zend_Controller_Action
         if (!$this->_auth->hasIdentity()) {
             $this->_redirect('/user/login');
         }
+		
         $identity = $this->_auth->getIdentity();echo '<pre>';print_r($identity);
         $username = (is_object($identity)) ? $identity->uname: $identity;
         $this->_userAuth = $identity;
